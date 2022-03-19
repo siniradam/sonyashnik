@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 
 import en from "../locale/en";
