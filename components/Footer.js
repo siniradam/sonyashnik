@@ -14,6 +14,7 @@ function Footer() {
       >
         Powered by{" "}
         <Image
+          alt='Support To Life Logo'
           src='/img/hayatadestek-logo-yatay-60p.svg'
           className='justify-self-center'
           width={120}

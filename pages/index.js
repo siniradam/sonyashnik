@@ -49,10 +49,13 @@ export default function Home() {
 
       <div className='min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-6 lg:px-8'>
         <div className='sm:mx-auto sm:w-full sm:max-w-md'>
-          <img
+          <Image
             className='mx-auto h-12 w-auto'
             src='/img/hayatadestek-logo-yatay-60p.svg'
             alt='Workflow'
+            layout='responsive'
+            width={248}
+            height={60}
           />
           <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>
             Support Form
@@ -155,7 +158,7 @@ export default function Home() {
                 >
                   Submit
                 </button>
-                <Link href='https://call.1ve0.org/health'>
+                <Link href='https://call.1ve0.org/health' passHref>
                   <button
                     type='submit'
                     className='w-1/3 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 items-center'
